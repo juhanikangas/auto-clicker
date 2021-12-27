@@ -9,7 +9,7 @@ void  autoClicker()
 	int clickSpeed;
   	cout << "Please enter an integer value: ";
   	cin >> clickSpeed;
-	cout << "Press X to start autoclicking and Z to stop";
+	cout << "Press X to start autoclicking and Z to stop \n";
 	while (true)
 	{
 		if (GetAsyncKeyState('X'))
